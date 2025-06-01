@@ -31,12 +31,26 @@
       <section>
         <h2>Contact Us Form</h2>
         <form>
-          <label></label>
-          <input type="text" placeholder="Enter your name..." required />
-          <label for=""></label>
-          <input type="email" placeholder="Enter your email..." required />
-          <label for=""></label>
-          <textarea></textarea>
+          <label for="name">Enter your name:</label>
+          <input
+            type="text"
+            placeholder="Enter your name..."
+            id="name"
+            required
+          />
+          <label for="email">Enter your email:</label>
+          <input
+            type="email"
+            placeholder="Enter your email..."
+            id="email"
+            required
+          />
+          <label for="message">Enter your message:</label>
+          <textarea
+            id="message"
+            required
+            placeholder="Enter a message..."
+          ></textarea>
           <button type="submit">Send Message</button>
         </form>
       </section>
